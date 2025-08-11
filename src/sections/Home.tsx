@@ -129,7 +129,7 @@ const Home = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <img
-                  src="public/image_home.png"
+                  src="public/image_home.jpg"
                   alt="Sreynich Chhoeurn"
                   className="w-full h-full object-cover"
                 />

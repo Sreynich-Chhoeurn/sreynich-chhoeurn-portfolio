@@ -165,7 +165,7 @@ const Resume = () => {
             <div className="glassmorphism rounded-xl p-6 mb-8">
               <div className="text-center mb-6">
                 <img
-                  src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="public/image_profile.jpg"
                   alt="Sreynich Chhoeurn"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
