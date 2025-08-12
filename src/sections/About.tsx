@@ -70,7 +70,7 @@ const About = () => {
             transition={{ delay: 0.2 }}
           >
             <img
-              src="public/image_about.jpg"
+              src="src/assets/image_about.jpg"
               alt="Sreynich working"
               className="w-full h-96 object-cover rounded-2xl shadow-lg"
             />

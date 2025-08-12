@@ -99,7 +99,7 @@ const Home = () => {
                 <Github size={24} className="text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="https://www.linkedin.com/in/sreynich-chhoeurn-776b68344?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8hJIz0PBQWuGNJ%2Be3Ye%2B6g%3D%3D"
+                href="linkedin.com/in/sreynich-chhoeurn-776b68344"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glassmorphism rounded-full hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300 hover:scale-110"
@@ -107,7 +107,7 @@ const Home = () => {
                 <Linkedin size={24} className="text-gray-700 dark:text-gray-300" />
               </a>
               <button
-                onClick={() => scrollToSection('#contact')}
+                onClick={() => scrollToSection('#project')}
                 className="p-3 glassmorphism rounded-full hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300 hover:scale-110"
               >
                 <Mail size={24} className="text-gray-700 dark:text-gray-300" />
@@ -129,7 +129,7 @@ const Home = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <img
-                  src="public/image_home.jpg"
+                  src="src/assets/image_home.jpg"
                   alt="Sreynich Chhoeurn"
                   className="w-full h-full object-cover"
                 />
