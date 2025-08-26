@@ -1,28 +1,7 @@
 {
-  "compilerOptions": {
-    "module": "esnext",
-    "moduleResolution": "node",
-    "target": "esnext",
-    "jsx": "react-jsx",
-    "types": ["node"],
-
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
-
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
-  }
-
-
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
