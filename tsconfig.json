@@ -4,7 +4,7 @@
     "moduleResolution": "node",
     "target": "esnext",
     "jsx": "react-jsx",
-    "types": [],
+    "types": ["node"],
 
     "sourceMap": true,
     "declaration": true,
@@ -23,4 +23,6 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   }
+
+
 }
