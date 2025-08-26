@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import {
@@ -13,7 +12,7 @@ import {
 } from 'lucide-react';
 
 const Skills = () => {
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const [ref] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   const hardSkills = [
     { name: 'HTML / CSS', level: 69, color: 'from-orange-500 to-red-500' },
@@ -90,7 +89,7 @@ const Skills = () => {
             Technical Proficiency
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
-            {hardSkills.map((skill, index) => (
+            {hardSkills.map((skill) => (
               <div key={skill.name} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 shadow-sm">
                 <div className="flex justify-between items-center mb-2">
                   <h4 className="text-md font-medium text-gray-700 dark:text-gray-200">{skill.name}</h4>

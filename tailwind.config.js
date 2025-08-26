@@ -5,6 +5,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+      sans: ['Inter', 'system-ui', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+    },
+    colors: {
+      primary: {
+        500: '#3B82F6', // Example blue color
+      },
+      mint: {
+        400: '#6EE7B7', // Example mint color
+      },
+    },
+      fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       animation: {
